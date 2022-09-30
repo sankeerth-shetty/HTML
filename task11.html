@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Sandwich Shop</title>
+</head>
+<body>
+    <div align="center">
+    <form action="" method="post">
+        <table width="40%" border="0">
+        <tr>
+            <td>
+                <h2 align="center">Tasty Sandwich Shop</h2>
+                <fieldset>
+                    <legend>Customer Information</legend><br>
+                    <table border="0">
+                    <tr>
+                        <td><label>First Name:</label><br><br></td>
+                        <td><input type="text" name="fname" id="fname" placeholder="Enter first your name" required><br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Last Name:</label><br><br></td>
+                        <td><input type="text" name="lname" id="lname" placeholder="Enter last your name" required><br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Phone No.:</label><br><br></td>
+                        <td><input type="tel" name="phone" id="lname" placeholder="Enter your phone number" required><br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email:</label><br><br></td>
+                        <td><input type="email" name="email" id="email" placeholder="Enter your email" required><br><br></td>
+                    </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Toppings For Sandwich</legend><br>
+                    <table border="0">
+                    <tr>
+                        <td><label>Choose Size:</label><br><br></td>
+                        <td><input type="radio" name="size" id="small" required> Small
+                            <input type="radio" name="size" id="medium" required> Medium
+                            <input type="radio" name="size" id="large" required> Large
+                        <br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Choose Bread:</label><br><br></td>
+                        <td><input type="radio" name="bread" id="wheat" required> Wheat Bread
+                            <input type="radio" name="bread" id="italian" required> Italian Bread
+                            <input type="radio" name="bread" id="flat" required> Flat Bread
+                        <br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Choose Filling:</label><br><br></td>
+                        <td><input type="radio" name="filling" id="veggies" required> Veg Patty 
+                            <input type="radio" name="filling" id="cottage cheese" required> Cottage Cheese
+                            <input type="radio" name="filling" id="chicken" required> Chicken Patty
+                        <br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Choose Mayo:</label><br><br></td>
+                        <td><input type="radio" name="mayo" id="green mint" required> Green Mint
+                            <input type="radio" name="mayo" id="chilli garlic" required> Chilli Garlic
+                            <input type="radio" name="mayo" id="normal" required> Normal Mayo
+                        <br><br></td>
+                    </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Address And Payment</legend><br>
+                    <table border="0">
+                    <tr>
+                        <td><label>Address:</label><br><br></td>
+                        <td><textarea type="text" name="address" id="address" rows="4" cols="40" placeholder="Enter your address"required></textarea>
+                        <br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Payment:</label><br><br></td>
+                        <td><select>
+                            <option>Cash On Delivery</option>
+                            <option>UPI Payment</option>
+                            <option>Net Banking</option>
+                        </select>
+                        <br><br></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit" id="submit"></td>
+                    </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
