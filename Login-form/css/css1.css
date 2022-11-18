@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+}
+.background{
+    margin: 120px auto;
+    /* border: 1px solid white; */
+    width: 60%;
+    align-items: center;
+}
+.card{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+.row1{
+    width: 50%;
+    /* border: 1px solid red; */
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: -5px 0px 10px rgb(70, 70, 70) inset;
+}
+.row2{
+    width: 50%;
+    background-image: url(../images/man_with_phone.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px 20px 20px 0px;
+}
+.form{
+    /* border: 1px solid red; */
+    padding: 50px 30px 50px 30px;
+}
+.form h1{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid purple;
+    width: 8%;
+    margin-bottom: 40px;
+}
+.emailbox{
+    border-bottom: 1px solid purple;
+    padding-bottom: 5px;
+    color: purple;
+    margin-bottom: 30px;
+}
+.emailbox .email{
+    margin-left: 10px;
+    font-size: 18px;
+    padding-right: 85px;
+    border-color: transparent;
+}
+.passwdbox{
+    border-bottom: 1px solid purple;
+    padding-bottom: 5px;
+    color: purple;
+    margin-bottom: 12px;
+}
+.passwdbox .password{
+    margin-left: 13px;
+    font-size: 18px;
+    padding-right: 85px;
+    border-color: transparent;
+}
+.fpb{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: purple;
+}
+.fpb:hover{
+    color: red;
+}
+.loginbutton{
+    margin-top: 35px;
+    padding: 10px 151px;
+    background-color: purple;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 22px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+.loginbutton:hover{
+    background-color: maroon;
+}
+.sunb{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sunb a{
+    text-decoration: none;
+    color: purple;
+}
+.sunb a:hover{
+    color: red;
+}
+.row2 .imageb{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(104, 15, 104, 0.7);
+}
+.rcs{
+    padding: 100px 40px;
+    /* border: 1px solid red; */
+    margin: 60px 0px;
+    align-items: center;
+}
+.imageb .rc1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+.imageb .rc2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 550;
+}
